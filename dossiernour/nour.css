@@ -9,7 +9,11 @@ background:url(./photo/bleu.jpg)no-repeat;
 
 
 .exp 
-{background-color:red;
+{
+ animation-name: slidein;
+animation-duration:3s;
+background-color:red;  
+background-color:red;
 width:300px;
 height:360px;
 position:relative;
@@ -31,6 +35,9 @@ grid-template-columns:repeat(2, 2fr);
 
 .etd
 {
+animation-name: slidein;
+animation-duration:3s;
+background-color:red;
 background-color:blue;
 margin-left:500px;
 width:300px;
@@ -41,7 +48,11 @@ text-align:center;
 
 
 .int
-{background-color:red;
+{
+ animation-name: slidein;
+animation-duration:3s;
+background-color:red; 
+ background-color:red;
 margin-left:500px;
 width:300px;
 height:320px;
@@ -50,30 +61,36 @@ text-align:center;
 }
 
 .lg
-{background-color:blue;
+{
+ animation-name: slidein;
+animation-duration:3s;
+background-color:red;  
+ background-color:blue;
 width:300px;
 height:300px;
 text-align:center;
 }
 
-   
-.nour
-
-{
- text-align:center;
- @keyframes slidein
-background-color: yellow;
+@keyframes slidein {
+    from {margin-left:-1000px;}
+    to {margin-left:0px;}
 }
+
    
 
 .prenom
-{background-color:red;
+{animation-name: slidein;
+animation-duration:3s;
+background-color:red;
 text-align:center;
 } 
    
    
 .cor
 {
+   animation-name: slidein;
+animation-duration:3s;
+background-color:red;
 margin-bottom:10px;
 text-align:center;
 width:100%;
