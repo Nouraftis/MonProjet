@@ -1,0 +1,4 @@
+
+alert("je suis pas fière de vous !!!");
+prompt("comment tu va ?");
+console.log("t'es aller voire ma console?");
