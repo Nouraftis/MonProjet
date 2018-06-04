@@ -2,7 +2,9 @@
 
 body {
 
-background-image:url(./photo/photosky.jpg)
+background-image:url(./photo/photosky.jpg);
+background-attachment: fixed;
+background-size: 1920px 1080px
 
 } 
 
