@@ -1,0 +1,30 @@
+body {
+background: url(./photo/hopital.jpg);
+background-size: 1920px 1080px;
+background-attachment: fixed;
+}
+
+#couleurouge
+{
+color:#FF3333;
+}
+
+#policedecara
+{
+font-family: arvo;
+}
+
+.poignet
+{
+font-size: 16px;
+}
+
+.genou
+{
+font-size: 16px;
+}
+
+.coude
+{
+font-size: 16px;
+}
